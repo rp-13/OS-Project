@@ -381,10 +381,12 @@ void MLQ(struct data p[]) {
 
 int main() {
 
+    printf("Enter Number of process \n");
     scanf("%d", &N);
 
     struct data p[N];
 
+    printf("Enter Process Id, Arrival Time, Burest Time, Priority \n");
     for (int i = 0; i < N; i++) {
         scanf("%d%d%d%d", &p[i].num, &p[i].at, &p[i].bt, &p[i].p);
         p[i].rt = p[i].bt;
