@@ -106,7 +106,7 @@ void calculation(struct data p[], int g[], int n) {
 
         for (j = n; j >= 0; j--) {
 
-            if (g[j] == i + 1) {
+            if (g[j] == p[i].num) {
 
                 p[i].ft = j + 1;
                 break;
@@ -118,7 +118,7 @@ void calculation(struct data p[], int g[], int n) {
 
         for (j = 0; j < n; j++) {
 
-            if (g[j] == i + 1) {
+            if (g[j] == p[i].num) {
 
                 p[i].st = j;
                 break;
