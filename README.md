@@ -21,9 +21,9 @@ Consider:
 
 ```
 3
-p1 0 3 3
-p2 0 3 2
-p3 0 4 1
+1 0 3 3
+2 0 3 2
+3 0 4 1
 ```
 ### Sample Output
 
@@ -32,9 +32,9 @@ Ghant Chart
 p1 p2 p3 p3 p3 p3 p2 p2 p1 p1
 
 Id ArrivalTime BurestTime WaitingTime TurnAroundTime
-p1     0            3          5           8
-p2     1            3          6           9
-p3     2            4          0           4
+1     0            3          5           8
+2     1            3          6           9
+3     2            4          0           4
 
 Average waiting time and total turn around time
 3.666667 7.000000
